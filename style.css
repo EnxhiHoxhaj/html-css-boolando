@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+
+header {
+    width: 100%;
+    background-color: #ff6900;
+    display: flex;
+    justify-content: center;
+}
+
+#menù {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1a1a1a;
+}
