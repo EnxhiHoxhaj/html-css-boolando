@@ -60,19 +60,78 @@ main {
 
 .prodotto {
     width: 32% ;
+    margin-bottom: 70px;
 }
 
 .prodotto img{
     width: 100% ;
-
 }
 
+.marca{
+    font-size: 12px;
+    font-weight: 400;
+}
 
+.nome-prodotto {
+    font-size: 12px;
+}
 
+.prezzo {
+    font-size: 12px;
+    color: red;
+}
+ .prezzo.originale {
+    text-decoration:line-through;
+    color: black;
+}
 
+.sconto, .sostenibile {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.sconto {
+    background-color: red;
+}
+.sostenibile {
+    background-color: green;
+}
 
+.info-promozioni {
+    position: absolute;
+    bottom: 50px;
+}
 
+.immagine-prodotto {
+    position: relative;
+}
 
+.heart-hover {
+    font-size: 30px;
+    padding: 0 15px 0 10px;
+    background-color: white;
+    position: absolute ;
+    right: 0px;
+    top: 20px;
+}
+
+.immagine-prodotto:hover .heart-hover{
+    display: flex;
+    color: red ;
+}
+
+.prodotto-2 {
+    display: none ;
+    position: absolute ;
+    right: 0;
+    top: 0;
+}
+
+.immagine-prodotto:hover .prodotto-2 {
+    display: flex;
+}
 
 
 
