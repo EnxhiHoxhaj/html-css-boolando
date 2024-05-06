@@ -133,41 +133,18 @@ main {
     display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: #1a1a1a;
     width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
-/*DEBUG*/
-    min-height: 100px;
+#link-footer {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
 }
