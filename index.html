@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,28 +17,36 @@
 
         <nav id="menù">
 
-            <ul id="categoria">
+            <div id="categoria">
 
-                <li>
-                    <a href="#">Donna</a>
-                </li>
+                <ul >
 
-                <li>
-                    <a href="#">Uomo</a>
-                </li>
+                    <li>
+                        <a href="#">Donna</a>
+                    </li>
 
-                <li>
-                    <a href="#">Bambino</a>
-                </li>
+                    <li>
+                        <a href="#">Uomo</a>
+                    </li>
 
-            </ul>
+                    <li>
+                        <a href="#">Bambino</a>
+                    </li>
 
-            <img src="img/boolean-logo.png" id="logo" alt="logo boolean">
+                </ul>
+
+            </div>
+
+            <div id="logo">
+
+                <img src="img/boolean-logo.png" alt="logo boolean">
+
+            </div>
 
             <div id="sezioni-sito">
-                <img src="img/user-regular.svg" alt="user" id="user">
-                <img src="img/heart-regular.svg" alt="preferiti" id="preferiti">
-                <img src="img/bag-shopping-solid.svg" alt="carrello" id="carrello">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
             </div>
 
         </nav>
@@ -65,7 +74,7 @@
                     
                     <h4 class="marca"> Levi's</h4>
                     <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale"> 29,99 &#8364</e></h4>
                     
                 </div>
 
@@ -79,9 +88,9 @@
                         </div>
                     </div>
                     
-                    <h4 class="marca"> Levi's</h4>
-                    <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="marca"> Tommy Hilfiger</h4>
+                    <h3 class="nome-prodotto">PLEATED SKIRT</h3>
+                    <h4 class="prezzo"> 120,00 &#8364 <e class="prezzo originale"> 84,00 &#8364</e></h4>
                     
                 </div>
 
@@ -95,9 +104,9 @@
                         </div>
                     </div>
                     
-                    <h4 class="marca"> Levi's</h4>
-                    <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="marca"> Hugo Boss</h4>
+                    <h3 class="nome-prodotto">COMPLETO SOPHIA</h3>
+                    <h4 class="prezzo"> 254,30 &#8364 <e class="prezzo originale"> 178,01 &#8364</e></h4>
                     
                 </div>
 
@@ -114,7 +123,7 @@
                     
                     <h4 class="marca"> Levi's</h4>
                     <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="prezzo"> 15,50 &#8364 <e class="prezzo originale">31,00 &#8364</e></h4>
                     
                 </div>
 
@@ -125,9 +134,9 @@
                         <div class="heart-hover"> &#9829; </div>
                     </div>
                     
-                    <h4 class="marca"> Levi's</h4>
-                    <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="marca"> Mango</h4>
+                    <h3 class="nome-prodotto">VESTITO DA SERA GOLD</h3>
+                    <h5> 92,99 &#8364</h5>
                     
                 </div>
 
@@ -141,9 +150,9 @@
                         </div>
                     </div>
                     
-                    <h4 class="marca"> Levi's</h4>
-                    <h3 class="nome-prodotto">RELAXED FIT TEE UNISEX</h3>
-                    <h4 class="prezzo"> 14,99 &#8364 <e class="prezzo originale">29,99 &#8364</e></h4>
+                    <h4 class="marca"> Topshop</h4>
+                    <h3 class="nome-prodotto">MAGLIONE OVERSIZE</h3>
+                    <h5 class="prezzo"> 16,99 &#8364</h5>
                     
                 </div>
 
@@ -157,28 +166,27 @@
 
     <footer>
         <nav id="link-footer">
-            <section id="footer-sinistra">
-                <div>
+            <section>
+                <h3>
                     Boolandro s.r.l
-                </div>
+                </h3>
                 <div>
-                    <span>Informazione legali</span>
-                    <span>Informativa sulla privacy</span>
-                    <span> Diritto di recesso</span>
+                    <small>Informazione legali</small>
+                    <small>Informativa sulla privacy</small>
+                    <small>Diritto di recesso</small>
                 </div>
             </section>
-            <section id="footer-destra">
+            <section>
                 <div>
-                    trovaci anche su
+                    Trovaci anche su
                 </div>
                 <div id="social">
-                    <span> &reg; </span>
-                    <span> &copy;</span>
-                    <span> &copy;</span>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
                 </div>
             </section>
         </nav>
-
     </footer>
 
 </body>
